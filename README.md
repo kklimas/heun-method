@@ -4,8 +4,8 @@ Application presents solving ordinary differential equations using Heun's method
 
 ## Used technologies
 
-Application is built with [Electron](https://www.electronjs.org/) framework (desktop apps) and 
-[Chart.js](https://www.chartjs.org/) - JavaScript library for dynamic graph creation.
+Application was created with [Electron](https://www.electronjs.org/) framework (desktop apps) and 
+[Chart.js](https://www.chartjs.org/) - JavaScript library for dynamic graph drawing.
 
 ## Installation
 
