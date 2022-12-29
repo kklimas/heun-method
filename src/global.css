@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(37, 37, 37);
+}
+
+#main {
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 32px 64px; */
+    position: relative;
+}
+.bg {
+    width: 100vw;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-image: url("./img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    top: 32px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.page {
+    margin-top: 16px;
+    padding: 24px;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 24px;
+    -webkit-box-shadow: 0px 0px 50px -13px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 50px -13px rgba(0,0,0,1);
+    box-shadow: 0px 0px 50px -13px rgba(0,0,0,1);
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid black;
+    margin-bottom: 16px;
+}
+
+.button {
+    margin-top: 24px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1.4rem;
+    border-radius: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+}
+
+.button:hover {
+    background-color: crimson;
+}
+
+.row h2 {
+    font-size: 2rem;
+}
+
+.row {
+    margin-top: 24px;
+}
+
+.row:nth-child(1) {
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}

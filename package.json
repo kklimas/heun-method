@@ -1,0 +1,20 @@
+{
+  "name": "euler-method",
+  "version": "1.0.0",
+  "description": "Implementation of Euler's method for differential equations",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kklimas"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-packager": "^17.1.1"
+  }
+}

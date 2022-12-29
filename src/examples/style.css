@@ -1,0 +1,13 @@
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+}
+.line {
+    max-width: 45%;
+}
+.bar {
+    margin-top: 24px;
+    max-width: 80%;
+}
